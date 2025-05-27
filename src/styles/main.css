@@ -1,0 +1,50 @@
+@import url('variables.css');
+
+.bg-light {
+    background-color: var(--background-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important; 
+    border-color: var(--bs-primary) !important;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.02), rgba(255, 255, 255, 1));
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+/* Ícone */
+.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.icon path {
+    fill: var(--bs-primary);
+}
+
+/* Texto */
+header span {
+    font-family: var(--font-family);
+}
+
+/* Responsivo */
+@media (max-width: 576px) {
+    .icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    header span {
+        font-size: 1.25rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+}

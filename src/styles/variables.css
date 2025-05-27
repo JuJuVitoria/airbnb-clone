@@ -1,0 +1,23 @@
+:root {
+    /* Cores principais */
+    --primary-color: #FF385C;
+    --background-color: #FFFFFF;
+    --background-light: #F7F7F7;
+    --text-color: #222222;
+    --text-muted: #717171;
+    --border-color: #DDDDDD;
+
+    /* Cores auxiliares (se precisar) */
+    --hover-color: rgba(0, 0, 0, 0.05);
+    --shadow-color: rgba(0, 0, 0, 0.15);
+
+    /* Bootstrap override */
+    --bs-primary: var(--primary-color);
+    --bs-light: var(--background-light);
+    --bs-dark: var(--text-color);
+    --bs-white: var(--background-color);
+    --bs-gray: var(--text-muted);
+
+    /* Tipografia */
+    --font-family: 'Circular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
